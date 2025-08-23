@@ -1,0 +1,19 @@
+cas,name,molecular_weight,equivalent_weight
+7647-14-5		sodium chloride		58.44		58.44
+1310-73-2		sodium hydroxide		39.997		39.997
+497-19-8		sodium carbonate		105.988		52.994
+7757-82-6		sodium sulfate		142.04		71.02
+7447-40-7		potassium chloride		74.55		74.55
+144-55-8		sodium bicarbonate		84.007		84.007
+7681-11-0		potassium iodide		166.0028		166.0028
+7758-02-3		potassium bromide		119.0		119.0
+7758-99-8		copper sulfate pentahydrate		249.69		124.845
+7446-20-0		zinc sulfate heptahydrate		287.6		143.8
+6381-92-6		edta disodium salt		372.24		186.12
+7722-64-7		potassium permanganate		158.034		158.034
+7761-88-8		silver nitrate		169.873		169.873
+7778-50-9		potassium dichromate		294.18		294.18
+554-13-2		lithium carbonate		73.9		36.95
+7447-41-8		lithium chloride		42.4		42.4
+10043-52-4		calcium chloride		110.98		55.49
+471-34-1		calcium carbonate		100.09		50.045
