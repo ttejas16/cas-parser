@@ -13,7 +13,7 @@ def get_cas_numbers_without_braces(text):
 
 
 if __name__ == "__main__":
-    cas_pattern = r"\[\d{2,7}-\d{2}-\d\]"
+    cas_pattern = r"\d{2,7}-\d{2}-\d"
 
     reader = PdfReader("input.pdf")
     seen = set()
