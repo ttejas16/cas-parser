@@ -138,6 +138,10 @@ if __name__ == "__main__":
                 print("Could not find for cas:", cas)
                 continue
 
+            if not is_salt_from_synonyms(compound):
+                print("skipping cas:", cas)
+                continue
+
             compound_name = get_simple_name(compound).lower()
             molecular_weight = float(compound["molecular_weight"])
             molecular_formula = compound["molecular_formula"]
