@@ -51,7 +51,7 @@ def get_compound_info_from_cas(cas):
 
     entry = cache.get(cas, None)
     if entry:
-        print("Cache hit for cas: ", cas)
+        # print("Cache hit for cas: ", cas)
         return entry
 
     compounds = pcp.get_compounds(cas, "name")
