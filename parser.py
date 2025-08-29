@@ -28,6 +28,6 @@ if __name__ == "__main__":
         for cas in found_cas_numbers:
             seen.add(cas)
 
-    with open("actual_cas.txt","w") as output:
+    with open("cas.txt","w") as output:
         for cas in seen:
             output.write(cas + "\n")

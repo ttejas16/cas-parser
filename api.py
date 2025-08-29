@@ -44,7 +44,8 @@ def get_compound_info_from_cas(cas):
                 'inchi': str,
                 'molecular_formula': str,
                 'cid': str,
-                'iupac_name': str
+                'iupac_name': str,
+                'elements': List[str]
             }
         Returns None if compound not found.
     """
@@ -67,6 +68,7 @@ def get_compound_info_from_cas(cas):
     obj["molecular_formula"] = compound.molecular_formula
     obj["inchi"] = compound.inchi
     obj["iupac_name"] = compound.iupac_name
+    obj["elements"] = compound.elements
 
     save_to_cache(cas, obj)
     return obj
